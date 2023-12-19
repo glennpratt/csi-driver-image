@@ -3,32 +3,19 @@ module github.com/warm-metal/csi-driver-image
 go 1.16
 
 require (
-	github.com/Microsoft/go-winio v0.4.16 // indirect
-	github.com/Microsoft/hcsshim v0.8.14 // indirect
-	github.com/Microsoft/hcsshim/test v0.0.0-20201222193524-bf55dadfbdf1 // indirect
 	github.com/container-storage-interface/spec v1.4.0
-	github.com/containerd/containerd v1.4.3
-	github.com/containerd/continuity v0.0.0-20201208142359-180525291bb7 // indirect
-	github.com/containerd/fifo v0.0.0-20201026212402-0724c46b320c // indirect
-	github.com/envoyproxy/go-control-plane v0.9.9-0.20201210154907-fd9021fe5dad // indirect
-	github.com/gogo/googleapis v1.4.0 // indirect
-	github.com/imdario/mergo v0.3.11 // indirect
-	github.com/kubernetes-csi/csi-lib-utils v0.9.1 // indirect
-	github.com/opencontainers/image-spec v1.0.1
-	github.com/opencontainers/selinux v1.8.0 // indirect
+	github.com/containerd/containerd v1.6.26
+	github.com/opencontainers/image-spec v1.1.0-rc2.0.20221005185240-3a7f492d3f1b
 	github.com/pkg/errors v0.9.1
-	github.com/stretchr/testify v1.7.0 // indirect
-	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635 // indirect
 	github.com/warm-metal/csi-drivers v0.5.0-alpha.0.0.20210404173852-9ec9cb097dd2
-	golang.org/x/net v0.0.0-20201224014010-6772e930b67b // indirect
-	google.golang.org/grpc v1.36.1
-	k8s.io/api v0.20.1
-	k8s.io/apimachinery v0.20.1
-	k8s.io/client-go v0.20.1
-	k8s.io/cri-api v0.17.3
-	k8s.io/klog/v2 v2.4.0
+	google.golang.org/grpc v1.58.3
+	k8s.io/api v0.22.5
+	k8s.io/apimachinery v0.22.5
+	k8s.io/client-go v0.22.5
+	k8s.io/cri-api v0.25.0
+	k8s.io/klog/v2 v2.30.0
 	k8s.io/kubernetes v1.20.1
-	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
+	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b
 )
 
 replace (
